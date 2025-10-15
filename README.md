@@ -1,0 +1,2 @@
+# CNF-purification-process
+This Github page concerns the design and simulation of a process plant for the purification of CMP-produced Carbon nanofibers. The relevant AspenPlus V12 and Python files for the simulation, techno-economic analysis and sensitivity analysis of the process plant can be accessed on this page.
