@@ -1,8 +1,17 @@
 # CNF-purification-process
-This Github page concerns the design and simulation of a process plant for the purification of CMP-produced Carbon nanofibers. The relevant AspenPlus V12 and Python files for the simulation, techno-economic analysis and sensitivity analysis of the process plant can be accessed on this page. Furthermore, the Python code for curve fitting of the acid leaching kinetics of nickel from CNF is provided.
+This Github page concerns the design and simulation of a process plant for the purification of CMP-produced Carbon nanofibers. 
 
-Explain that pathways to techno economics and code lib files need to be correct
+The Python codes for the techno-economic and sensitivity analyses are in the Python Codes folder. Specifically, the following Python codes are included:
+-Code name, its use
 
-Explain what each file is meant for
+In the Techno Economic Library, there is a Python file for the techno-economic calculations. This file should be linked to the Python codes.
+
+In the Aspen Code Library is a file that contains all the code necessary to link Python with Aspen, send input to Aspen and retrieve data from Aspen. Credit is to ....
+
+The Aspen files folder contains all the relevant Aspen files for the Python codes and the kinetics curve fitting codes. 
+
+Finally, the kinetics curve fit folder contains the Python code used for the fitting of a power law model of acid leaching of nickel to literature data.
+
+
 
 Upload Aspen
