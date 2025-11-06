@@ -13,7 +13,7 @@ The Python codes for the techno-economic and sensitivity analyses are in the Pyt
 -baseline_withacidrecycle: Code for running the simulation for the baseline scenario with an acid recycle <br>
 -improved_baseline_withacidrecycle: Code for running the simulation for the improved baseline scenario with acid recycle <br>
 
-In the Techno Economic Library, there is a Python file for the techno-economic calculations. This file should be linked to the Python codes. Furthermore, there is a Python file which is only meant for linking with the Full_model_CSTR_Serial code.
+In the Techno Economic Library, there is a Python file for the techno-economic calculations. This file should be linked to the Python codes. Furthermore, there is a Python file which is only meant for linking with the Full_model_CSTR_Serial code. For the techno economic code, credit has to be given to P.B. Tamarona, pbtamarona on Github. The techno economic code is based on python code written by him. Research conducted by him and relevant code for techno economics and Python-Aspen written by him is found on the following page: https://github.com/pbtamarona/methanepyrolysis.
 
 In the Aspen Code Library folder is a file that contains all the code necessary to link Python with Aspen, send input to Aspen and retrieve data from Aspen. Full credit for the Aspen Code Library has to be given to Github user YouMayCallMeJesus. Link to the page: https://github.com/YouMayCallMeJesus/AspenPlus-Python-Interface. Some additions were made to the Code Library, including the code for CISOLID streams.
 
