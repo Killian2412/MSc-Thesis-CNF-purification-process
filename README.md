@@ -14,7 +14,7 @@ The Python codes for the techno-economic and sensitivity analyses are in the Pyt
 
 In the Techno Economic Library, there is a Python file for the techno-economic calculations. This file should be linked to the Python codes. Furthermore, there is a Python file which is only meant for linking with the Full_model_CSTR_Serial code.
 
-In the Aspen Code Library is a file that contains all the code necessary to link Python with Aspen, send input to Aspen and retrieve data from Aspen. Credit is to ....
+In the Aspen Code Library is a file that contains all the code necessary to link Python with Aspen, send input to Aspen and retrieve data from Aspen. Full credit for the Aspen Code Library has to be given to Github user YouMayCallMeJesus. Link to the page: https://github.com/YouMayCallMeJesus/AspenPlus-Python-Interface. Some additions were made to the Code Library, including the code for CISOLID streams.
 
 The Aspen files folder contains all the relevant Aspen files for the Python codes and the kinetics curve fitting codes: <br>
 -Batch_reactor_allcompsincluded: Aspen file for the kinetics curve fitting codes <br>
