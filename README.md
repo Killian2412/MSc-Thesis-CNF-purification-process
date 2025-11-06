@@ -3,15 +3,15 @@ This Github page concerns the design and simulation of a process plant for the p
 
 **Contents** <br>
 The Python codes for the techno-economic and sensitivity analyses are in the Python Codes folder. Specifically, the following Python codes are included: <br>
--Full_model_CSTR_Serial: Code for running the simulation for the improved baseline with changed reactor setup scenario <br>
--Full_model_Monte_Carlo: Code for running the Monte Carlo simulation for the baseline scenario <br>
--Full_model_Reactor_Analysis: Code fur running the sensitivity analyses of the impact of reactor and feed parameters on the reactor conversion of the baseline scenario <br>
+-Full_model_Techno_Eco_Baseline: Code for running the techno-economic simulation for the baseline scenario <br>
 -Full_model_Sensitivity_Analysis: Code for running the sensitivity analyses of the impact of various parameters on the economics of the baseline scenario <br>
--Full_model_Techno_Eco_Baseline: Code for running the simulation for the baseline scenario <br>
+-Full_model_Reactor_Analysis: Code fur running the sensitivity analyses of the impact of reactor and feed parameters on the reactor conversion of the baseline scenario <br>
 -Full_model_Tornado_Plot: Code for running the tornado plot analysis for the baseline scenario <br>
+-Full_model_Monte_Carlo: Code for running the Monte Carlo simulation for the baseline scenario <br>
 -Improved_baseline: Code for running the simulation for the improved baseline scenario, without acid recycle <br>
--baseline_withacidrecycle: Code for running the simulation for the baseline scenario with an acid recycle <br>
--improved_baseline_withacidrecycle: Code for running the simulation for the improved baseline scenario with acid recycle <br>
+-baseline_withacidrecycle: Code for running the simulation for the baseline scenario with only an acid recycle added <br>
+-improved_baseline_withacidrecycle: Code for running the simulation for the improved baseline scenario with acid recycle. Final design of improvement case 1. <br>
+-Full_model_CSTR_Serial: Code for running the simulation for the improved baseline with changed reactor setup scenario. Final design of improvement case 1. <br>
 
 In the Techno Economic Library, there is a Python file for the techno-economic calculations. This file should be linked to the Python codes. Furthermore, there is a Python file which is only meant for linking with the Full_model_CSTR_Serial code. For the techno economic code, credit has to be given to P.B. Tamarona, pbtamarona on Github. The techno economic code is based on python code written by him. Research conducted by him and relevant code for techno economics and Python-Aspen written by him is found on the following page: https://github.com/pbtamarona/methanepyrolysis.
 
