@@ -1,5 +1,5 @@
 # CNF-purification-process
-This Github page concerns the design and simulation of a process plant for the purification of CMP-produced Carbon nanofibers.
+This Github page concerns the design and simulation of a process plant for the purification of CMP-produced Carbon nanofibers. To run a simulation, at least a Python code and the required Aspen file are necessary. Furthermore, the use of the Code library and Techno economic library are often required as well.
 
 The Python codes for the techno-economic and sensitivity analyses are in the Python Codes folder. Specifically, the following Python codes are included: <br>
 -Full_model_CSTR_Serial: Code for running the simulation for the improved baseline with changed reactor setup scenario <br>
@@ -20,11 +20,9 @@ The Aspen files folder contains all the relevant Aspen files for the Python code
 -CSTR_Serial_Testing_Full_Model: Aspen file for the simulation for the improved baseline with changed reactor setup scenario <br>
 -Final_Aspen_model: Aspen file for running all the Python codes relating to the techno-ecnomic and sensitivity analyses, except for the improved baseline with changed reactor setup scenario. <br>
 
-Finally, the kinetics curve fit folder contains the Python code used for the fitting of a power law model of acid leaching of nickel to literature data:
--Aspen_k_fitting_validating: Validating the power law model of the acid leaching kinetics and comparison with the literature data.
--Aspen_k_fitting_with353Kline: Curve fitting in Python and Aspen of the acid leaching kinetics of nickel with a power law model. The k value is refitted.
--Python curve fitting: Curve fitting in Python of the acid leaching kinetics of nickel with a power law model.
+Finally, the kinetics curve fit folder contains the Python code used for the fitting of a power law model of acid leaching of nickel to literature data: <br>
+-Aspen_k_fitting_validating: Validating the power law model of the acid leaching kinetics and comparison with the literature data. <br>
+-Aspen_k_fitting_with353Kline: Curve fitting in Python and Aspen of the acid leaching kinetics of nickel with a power law model. The k value is refitted. <br>
+-Python curve fitting: Curve fitting in Python of the acid leaching kinetics of nickel with a power law model. <br>
 
 
-
-Upload Aspen
