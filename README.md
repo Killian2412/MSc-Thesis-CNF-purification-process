@@ -1,5 +1,5 @@
 # CNF-purification-process
-This Github page concerns the design and simulation of a process plant for the purification of CMP-produced Carbon nanofibers. To run a simulation, at least a Python code and the required Aspen file are necessary. Furthermore, the use of the Code library and Techno economic library are often required as well.
+This Github page concerns the design and simulation of a process plant for the purification of CMP-produced Carbon nanofibers. To run a techno-economic and/or sensitivity simulation, a Python code, the Aspen file, the Code library and the Techno economic library are required. 
 
 The Python codes for the techno-economic and sensitivity analyses are in the Python Codes folder. Specifically, the following Python codes are included: <br>
 -Full_model_CSTR_Serial: Code for running the simulation for the improved baseline with changed reactor setup scenario <br>
