@@ -712,25 +712,26 @@ axis3.legend(title='Cost Type', bbox_to_anchor=(1.05, 1), loc='upper left', font
 plt.tight_layout()
 
 
-
 #####################Plot 4: FCOP breakdown
-costs = fcop_dictionary.copy() #Copy, so it does not change the original dict
-
+costs = fcop_dictionary.copy()
 sorted_costs = sorted(costs.items(), key=lambda item: item[1], reverse=True)
 cost_labels = [item[0] for item in sorted_costs]
-cost_values_million = [item[1] / 1_000_000 for item in sorted_costs]
+cost_values = [item[1] for item in sorted_costs]
 figure4, axis4 = plt.subplots(figsize=(10, 8))
 cmap = plt.get_cmap('Paired')
-colors = [cmap(i) for i in range(len(cost_labels))] #Colours to use for the bars in the chart
+colors = [cmap(i) for i in range(len(cost_labels))]
 
 bottom = 0
-bar_width = 0.05
-for costs in range(len(cost_values_million)):
-    cost = cost_values_million[costs]
+bar_width = 0.082
+for costs in range(len(cost_values)):
+    cost = cost_values[costs] # Using raw cost here
     label = cost_labels[costs]
     axis4.bar(0, cost, bar_width, bottom=bottom, label=label, color=colors[costs])
     bottom += cost
 
+format4 = mtick.FuncFormatter(lambda y, p: f'{y/1e6:,.0f}')
+axis4.yaxis.set_major_formatter(format4)
+axis4.yaxis.set_major_locator(mtick.MultipleLocator(1e6))
 axis4.set_ylabel('Cost ($ millions / year)', fontsize=18)
 axis4.tick_params(axis='y', labelsize=14)
 axis4.set_xticks([])
@@ -740,6 +741,5 @@ axis4.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 
 plt.show()
-
 
 
